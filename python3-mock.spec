@@ -22,12 +22,10 @@ BuildRequires:	python3-modules >= 1:3.6
 BuildRequires:	python3-setuptools >= 17.1
 %if %{with tests}
 BuildRequires:	python3-pytest
-BuildRequires:	python3-six >= 1.9
 %endif
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with doc}
-BuildRequires:	python3-six >= 1.9
 BuildRequires:	sphinx-pdg-3
 %endif
 Requires:	python3-modules >= 1:3.6
