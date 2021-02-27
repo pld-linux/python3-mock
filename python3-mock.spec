@@ -8,7 +8,7 @@ Summary:	Rolling backport of unittest.mock for all Pythons
 Summary(pl.UTF-8):	Podążający backport modułu unittest.mock dla wszystkich wersji Pythona
 Name:		python3-%{module}
 Version:	4.0.3
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/Python
 ##Source0Download: https://pypi.org/simple/mock/
