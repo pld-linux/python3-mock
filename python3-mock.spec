@@ -19,7 +19,7 @@ Source0:	https://github.com/testing-cabal/mock/archive/%{version}/%{module}-%{ve
 # Source0-md5:	d2a1233e27b830742ad8f6999f3573c0
 URL:		http://python-mock.sourceforge.net/
 BuildRequires:	python3-modules >= 1:3.6
-BuildRequires:	python3-setuptools >= 17.1
+BuildRequires:	python3-setuptools >= 1:17.1
 %if %{with tests}
 BuildRequires:	python3-pytest
 %endif
