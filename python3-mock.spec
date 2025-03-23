@@ -7,8 +7,8 @@
 Summary:	Rolling backport of unittest.mock for all Pythons
 Summary(pl.UTF-8):	Podążający backport modułu unittest.mock dla wszystkich wersji Pythona
 Name:		python3-%{module}
-Version:	4.0.3
-Release:	6
+Version:	5.2.0
+Release:	1
 License:	BSD
 Group:		Development/Languages/Python
 ##Source0Download: https://pypi.org/simple/mock/
@@ -16,7 +16,7 @@ Group:		Development/Languages/Python
 # pypi dist misses docs and tests, use github archive
 #Source0Download: https://github.com/testing-cabal/mock/releases
 Source0:	https://github.com/testing-cabal/mock/archive/%{version}/%{module}-%{version}.tar.gz
-# Source0-md5:	d2a1233e27b830742ad8f6999f3573c0
+# Source0-md5:	ee1baedbfa514889dce013e6b0dba8b8
 URL:		http://python-mock.sourceforge.net/
 BuildRequires:	python3-modules >= 1:3.6
 BuildRequires:	python3-setuptools >= 1:17.1
